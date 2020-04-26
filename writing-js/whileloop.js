@@ -5,8 +5,8 @@ var count = 10;
 while(count > 0) {
 
 // do some jugglingand...
-    juggle();
-
+    // juggle();
+console.log("juggle");
 // reduce the value count of count by 1 each time. 
     count = count -1;
 

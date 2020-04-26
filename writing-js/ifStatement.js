@@ -10,6 +10,7 @@ var total = price - (price * (discount/100));
 // Compare the value in the variable total to 26. 
 if(total > 26) {
 // It the variable total is greater than 26, do something with freeShipping
-    freeShipping();
+    // freeShipping();
+    console.log("Free Shipping");
 // End the 'if statement.
 } 
