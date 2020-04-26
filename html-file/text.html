@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make a statement</title>
+    <!-- CSS writing a set of 'Rules' -->
+    <style>
+        /* With CSS we write rules that use selectors like h1.drink and p, to determine what parts of the HTML the style is 
+        applied to */
+        h1.drink {
+        /* Let's make sure all drink headings are colored brown... */
+            color:brown;
+        }
+        
+        /* Selector p */
+        p {
+         /* ...and we want all the paragraphs to have a sans-serif type font */
+            font-family: sans-serif;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <!-- With HTML we mark up text to create structure. Like "I need a large heading <h1> called Mocha Caffe Latte, 
+    it's a heading for a drink" -->
+    <h1 class="drink">Mocha Caffe Latte/h1>
+    
+    <!-- And I need a paragraph after that -->
+    <p>Espresso, steamed milk and chocolate syrup, just the way you like it.</p>
+
+    <script>
+        //  With JavaScript you write statements. Each statement specifies a small part of a 
+        // computation, and together, all the statements create the behavior of the page:
+
+        // A set of statements
+        // Each statement does a little bit of work, like declaring some variables to contain values for us.
+        // Here we create a variable to contain an age of 25,
+        var age = 25;
+
+        // ...and we also need a variable to contain the value “Owen”.
+        var name = "Owen"
+
+        // Or making decisions, such as: Is the age of the user greater than 14?
+        if (age > 14) {
+            
+            // And if so alerting the user they are too old for this page.
+            alert("Sorry this page is for kids only!");
+        // Otherwise,...
+        } else {
+            
+            // we welcome the user by name, like this: “Welcome Owen!” (but since Owen 
+            // is 25, we don’t do that in this case.)
+            alert("Welcome " + name + "!");
+        
+        }
+    </script>
+    
+</body>
+</html>
